@@ -1,3 +1,5 @@
+@media not print {
+
 /* Visibility of the target */
 .toggle, div.admonition.toggle .admonition-title ~ * {
     transition: opacity .5s, height .5s;
@@ -87,4 +89,5 @@ button.toggle-button {
 
 .toggle-button-hidden .vertical {
     transform: rotate(-90deg);
+}
 }
